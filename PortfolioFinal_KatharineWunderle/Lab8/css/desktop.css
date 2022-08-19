@@ -1,0 +1,61 @@
+body	{background:url("../images/checker.png");
+background-attachment:fixed;
+		color:black;
+		max-width:80%;}
+.wrapper {display: grid;
+		grid-gap: 0px;
+		grid-template-columns: 30% 30% 30%;
+		grid-template-rows: auto;}
+header {grid-column-start:1;
+		grid-column-end:4;
+		grid-row-start:1;
+		grid-row-end:2;
+		text-align:center;
+		border-top:10px dashed grey;
+		border-bottom: 10px dashed grey;
+		color:white;
+		background:black;
+		width:100%;}
+nav 	{border: 2px solid black;
+		grid-column-start:1;
+		grid-column-end: 2;
+		grid-row-start:2;
+		grid-row-end:4;}
+nav li 	{list-style-type:none;
+		margin-bottom:20px;
+		display:block;}
+h2 		{margin:0px auto;
+		color:white;
+		background:black;
+		border:double white;
+		text-align:center;
+		width:90%;}
+article {width:80%;
+		border:3px solid black;
+		background:white;
+		margin:20px auto;
+		font-family:verdana;}
+.1		{grid-column-start:2;
+		grid-column-end: 3;
+		grid-row-start:2;
+		grid-row-end:3;}
+.2		{grid-column-start:3;
+		grid-column-end: 4;
+		grid-row-start:2;
+		grid-row-end:3;}
+.3		{grid-column-start:2;
+		grid-column-end: 3;
+		grid-row-start:3;
+		grid-row-end:4;}
+.4		{grid-column-start:3;
+		grid-column-end: 4;
+		grid-row-start:3;
+		grid-row-end:4;}
+footer	{grid-column-start:1;
+		grid-column-end: 4;
+		grid-row-start:4;
+		grid-row-end: 5;
+		width:100%;
+		border:3px dotted black;}
+		
+

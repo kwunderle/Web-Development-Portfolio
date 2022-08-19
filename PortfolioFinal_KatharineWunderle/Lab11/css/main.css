@@ -1,0 +1,93 @@
+body	{width:90%;
+		max-width:800px;
+		min-width:650px;
+		background:url("../images/background.jpg");
+		background-attachment:fixed;
+		font-family:helvetica, arial, sans-serif;
+		color:black;
+		margin:0px auto;}
+.wrapper {margin:0px auto;
+		width:100%;
+		display: grid;
+		grid-gap: 0px;
+		grid-template-columns: 25% 75%;
+		grid-template-rows: auto;}
+header	{margin:0px auto;
+		width:100%;
+		max-width:800px;
+		grid-column-start:1;
+		grid-column-end:3;
+		grid-row-start:1;
+		grid-row-end:2;
+		margin-bottom:20px;
+		background:#073b4c;
+		border:10px dotted #ffd166;
+		border-radius:50px;
+		text-align:center;
+		font-size:1.8em;
+		font-family:Monaco;
+		font-weight:bold;
+		letter-spacing:10px;
+		color:#ffd166;}
+.thumbnails	{margin:0px auto;
+		grid-column-start:1;
+		grid-column-end:2;
+		grid-row-start:2;
+		grid-row-end:3;
+		padding-right:40px;
+		padding-top:20px;
+		padding-bottom:15px;}
+.thumbnails img {margin:0px auto;
+		margin-top:5px;
+		border-top:5px solid #073b4c;
+		border-bottom:5px solid #073b4c;
+		border-radius: 20px;}
+#fullsize 	{margin:0px auto;
+		width:80%;
+		grid-column-start:2;
+		grid-column-end:3;
+		grid-row-start:2;
+		grid-row-end:3;
+		background:#ef476f;
+		border:5px dashed #073b4c;
+		border-radius: 20px;
+		text-align:center;
+		padding:20px;
+		font-size:1.5em;
+		font-family:Garamond;}
+#full	{border-top:5px solid #073b4c;
+		border-bottom:5px solid #073b4c;
+		border-radius:20px;}
+ul  	{list-style-type:none;
+		margin:0px auto;
+		margin-top:20px;}
+li		{margin:0px auto;
+margin-top:20px;}
+footer	{width:100%;
+		max-width:800px;
+		grid-column-start:1;
+		grid-column-end:3;
+		grid-row-start:3;
+		grid-row-end:4;
+		margin:0px auto;
+		margin-top:10px;
+		padding:10px;
+		padding-left:40px;
+		background:#073b4c;
+		border:5px dotted #ffd166;
+		border-radius:50px;
+		color:#ffd166;}
+footer a	{color: #073b4c;
+		background:#ef476f;
+		text-align: center;
+		padding: 3px;
+		margin: 5px;
+		font-family:times new roman;
+		text-decoration: none;
+		border:1px solid #06d6a0;
+		border-radius:10px;}
+footer a:hover {
+		background: #073b4c;
+		color:#ef476f;
+		border:1px solid #ef476f;
+		border-radius:0px;}

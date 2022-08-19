@@ -1,0 +1,72 @@
+body	{background:#143601 url("../images/treebg.jpg");
+		background-attachment:fixed;
+		font-family:helvetica, arial, sans-serif;}
+header	{width:650px;
+		background:#538d22;
+		color:143601;
+		margin-left:250px;
+		margin-bottom:20px;
+		padding:20px;
+		font-family:papyrus;
+		font-size:1.2em;
+		text-align:center;
+		border:double black;}
+nav 	{width:180px;
+		top:10px;
+		left:10px;
+		position:fixed;
+		padding:15px;
+		background:#245501;
+		text-align:center;
+		border:double black;}		
+nav ul	{list-style-type:none;}
+nav li	{margin-bottom:20px;}
+nav a	{font-size:1.2em;
+		border:1px solid black;
+		width:100px;
+		display:block;
+		padding:3px;
+		text-decoration:none;
+		color:#143601;
+		background:#aad576;}
+nav a:hover {background:#143601;
+		color:#aad576;
+		border-radius:10px;}				
+article {width:650px;
+		margin-left:250px;
+		margin-bottom:5px;
+		padding:20px;
+		background:#aad576;
+		border:double black;
+		font-family:Times new roman;}
+article a{border:1px solid #143601; 
+		padding:3px;
+		text-align:center;
+		text-decoration:none;
+		color:#aad576;
+		background:#143601;}
+article a:hover {background:#aad576;
+		color:#143601;
+		border-radius:10px;}
+h2		{background:#538d22;
+		color:#143601;
+		text-transform: uppercase;
+		letter-spacing:10px;
+		margin:0 auto;
+		padding:10px;
+		border:double black;
+		text-align:center;
+		font-family:Monaco;}
+footer	{width:650px;
+		background:#538d22;
+		margin-left:250px;
+		margin-top:15px;
+		margin-bottom:20px;
+		padding:20px;
+		text-align:center;
+		border:solid black 2px;}
+footer a
+		{text-decoration:none;
+		color:#143601;
+		border: 1px dotted #143601;}
+footer a:hover{text-decoration:line-through;}

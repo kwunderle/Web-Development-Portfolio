@@ -1,0 +1,99 @@
+body
+	{background: rgb(84,71,140);
+	background: linear-gradient(90deg, rgba(84,71,140,1) 0%, rgba(22,219,147,1) 35%, rgba(241,196,83,1) 100%); 
+	font-family:helvetica, arial, sans-serif;}
+header
+	{width:700px;
+	margin:15px auto;
+	border:8px dotted #2C699A;
+	border-radius: 25px;
+	background:#B9E769;
+	color:#54478C;
+	font-family:Lucida Handwriting;
+	font-size: 1.5em;
+	text-align:center;}
+h2
+	{text-align:center;
+	font-family:Courier New;}
+article
+	{width: 700px;
+	margin:20px auto;
+	background:url("wallpaper.jpg");
+	background-position:center;
+	font-family:Arial;
+	color:black;
+	border: 4px solid #F29E4C;
+	border-radius: 100px;
+	padding: 30px;
+	text-align:justify;}
+tr
+	{border: 2px solid #F29E4C;}
+td
+	{width:50%;
+	padding:10px;
+	border: 2px solid #F29E4C;
+	border-radius:10px;}
+th
+	{width:50%;
+	text-align:center;
+	border: 2px solid #F29E4C;}
+.banner
+	{background:#048BA8;}
+.box
+	{background:#16DB93;}
+.about
+	{background:#EFEA5A;
+	padding:15px;
+	border:1px solid #EFEA5A;
+	border-radius:30px;}
+.aboutbox
+{background:#EFEA5A;}
+.top{float:right;}
+article a
+	{border:1px solid black; 
+	padding:3px;
+	text-align:center;
+	text-decoration:none;
+	color:#EFEA5A;
+	background:#54478C;}
+article a:hover {
+	background-color: #2C699A;}
+ul {text-align:center;
+	list-style-type: none;
+	display: block;
+	max-width:750px;
+	margin: 0px auto;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #54478C;}
+li {margin:0px auto;
+text-align:center;
+  float: left;}
+li a {margin:0px auto;
+  display: block;
+  color: #EFEA5A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+li a:hover {
+	background-color: #2C699A;}
+footer
+	{width:750px;
+	margin: 0 auto;
+	border: 4px dotted #0DB39E;
+	background:#54478C;
+	color:#EFEA5A;
+	padding:15px;}
+footer a
+	{text-decoration:none;
+	color:white;}
+	.submenu	{display:none;
+	margin:0px auto;
+	position: absolute;
+	border:2px solid #EFEA5A;}
+	.submenu li {margin:0px auto;
+	width:100%;
+	padding:0px;
+	clear:both;}
+	.submenu ul {margin:0px auto;
+	width:100%;}

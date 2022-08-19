@@ -1,0 +1,84 @@
+body
+	{background:#1985a1;
+		color:#232322;}
+header
+	{background:url("birds.jpg");
+	color:#dcdcdd;
+	font-size:20px;
+	top: 10px;
+	position:relative;
+	width:700px;
+	margin:0 auto;
+	padding:15px;
+	text-align:center;
+	font-family:Garamond;
+	border:dashed black 6px;}
+img
+	{border:dotted #4c5c68 4px;}
+h1 
+	{font-family:garamond, serif;
+	}
+h2
+	{font-family:Times New Roman;
+	font-size:20px;}
+nav
+	{background:url("ghost.jpg");
+	background-position: center;
+	width:200px;
+	top:150px;
+	left:10px;
+	position:absolute;
+	margin:0 auto;
+	padding:15px;
+	border:solid 4px;}		
+	nav ul {list-style-type:none;}
+	nav li {margin-bottom:25px;}
+
+	nav a { display:inline-block;
+		width:150px;
+		font-size:20px;
+		border:2px solid black;
+		border-radius:3px;
+		padding:3px;
+		text-decoration:none;
+		text-align:center;
+		color:#1985a1;background:#46494c;}
+	nav a:hover {background:#1985a1;color:#46494c;}		
+		
+article
+{background:#c5c3c6;
+	top:150px;
+	left:10px;
+	margin:0 auto;
+	position:absolute, relative;
+	width:700px;
+	padding:15px;
+	color:#46494c;
+	border:solid black 2px;
+	border-radius:35px;
+	font-family:Poppins, sans-serif;}
+article a {width:150px;
+		font-size:15px;
+		border:2px solid black;
+		border-radius:3px;
+		padding:3px;
+		text-decoration:none;
+		text-align:center;
+		color:#1985a1;background:#46494c;}
+	article a:hover {background:#1985a1;color:#46494c;}
+		
+footer
+{background:url("birds.jpg");
+	top: -5px;
+	position:relative;
+	margin:0 auto;
+	width:700px;
+	padding:15px;
+	text-align:center;
+	color:#dcdcdd;
+	border:dashed black 6px;}
+
+footer a
+	{text-decoration:underline;
+	color:white;}
+		

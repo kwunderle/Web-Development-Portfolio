@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Backyard Bees!</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script>
+		function ChangeImage(imgsrc, imgalt)
+		{document.getElementById('full').src=imgsrc;
+		document.getElementById('full').alt=imgalt;}
+		</script>
+</head>
+<body>
+<div class="wrapper">
+	<header>
+		<h1>Backyard Bees!</h1>
+	</header>
+	<article>
+		<ul class="thumbnails">
+			<li><img src="images/bee1thumb.jpg" alt="bee on flower thumbnail"
+				onclick="ChangeImage('images/bee1big.jpg','carpenter bee on yellow marigold');"></li>
+			<li><img src="images/bee2thumb.jpg" alt="bee on flower thumbnail"
+				onclick="ChangeImage('images/bee2big.jpg','carpenter bee on yellow marigold');"></li>
+			<li><img src="images/bee3thumb.jpg" alt="bee in flower thumbnail"
+				onclick="ChangeImage('images/bee3big.jpg','carpenter bee gathering pollen in purple morning glory');"></li>
+			<li><img src="images/bee4thumb.jpg" alt="bee on flower thumbnail"
+				onclick="ChangeImage('images/bee4big.jpg','2 carpenter bees on red marigolds');"></li>
+		</ul>
+		</article>
+	<article id="fullsize">
+		<p>Check out these Carpenter Bees!
+		<br>When they're not burrowing into your fence, they're gathering pollen from nearby flowers.</p>
+		<p>Click each thumbnail to see the full image.</p>
+		<img id="full" src="images/bee1big.jpg" alt="carpenter bee on yellow marigold">
+	</article>
+</div>
+</body>
+<footer>
+	<p>&copy;<a href="mailto:k.wunderle1@mail.lorainccc.edu">Katharine Wunderle</a></p>
+	<p>Background &copy;<a href="https://www.vecteezy.com">Vecteezy.com</a></p>
+	<p>Portfolio <a href="../portfolio.html">Home</a></p>
+</footer>
+</html>

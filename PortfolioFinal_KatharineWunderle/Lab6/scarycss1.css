@@ -1,0 +1,54 @@
+body
+	{background:#000000;
+	font-family:Times New Roman;}
+header
+	{width:700px;
+	margin:0 auto;
+	padding:10px;
+	background:#370617;
+	color:#ffba08;
+	font-family:Times New Roman;
+	text-align:center;}
+article
+	{width:700px;
+	margin:0 auto;
+	background-image: linear-gradient(black, red);
+	font-family:Times New Roman;
+	color:white;
+	border: 4px solid #dc2f02;
+	padding: 30px;
+	text-align:justify;}
+
+h1
+	{background:#370617;
+	color:#ffba08;
+	text-align:center;
+	font-family:Tahoma;}
+ul
+	{list-style-type:square;}
+img
+	{border:6px solid #dc2f02;}
+nav {width:700px;
+	margin:0 auto;
+	text-align:center;
+	padding:15px;}
+nav li
+	{display:inline;}
+nav a
+	{width:700px;
+	border:1px solid white; 
+	padding:3px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	background:black;}
+footer
+	{width:700px;
+	margin:0 auto;
+	border: 6px solid #ffba08;
+	background:#370617;
+	color:#ffba08;
+	padding:15px;}
+footer a
+	{text-decoration:none;
+	color:white;}

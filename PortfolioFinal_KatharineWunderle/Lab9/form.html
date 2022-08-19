@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Pizza Time!</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/grid.css"
+				 media="screen and (min-width: 800px)">
+</head>
+<body>
+<div class="wrapper">
+	<header>
+		<h1>Pizza Time!</h1>
+	</header>
+	<article>
+	<img class="pizza" src="images/pizza.jpg" alt="pizza slice with melty cheese" width="285" height="461">
+	</article>
+	<article>
+	<form action="http://www.randyconnolly.com/tests/process.php"
+		      method="post">
+	<fieldset>
+		<legend>Contact Information</legend>
+	<ul>
+		<li>
+			<label for="frmName">Name:</label> 
+			<input type="text" name="frmName" id="frmName">
+		</li>
+		<li>
+			<label for="frmPhone">Phone:</label> 
+			<input type="text" name="frmPhone" id="frmPhone">
+		</li>
+	</ul>
+	</fieldset>
+	<fieldset>
+		<legend>Crust Options</legend>
+	<ul>
+		<li>
+			<label for="frmSize">Size:</label>
+				<select name="frmSize" id="frmSize">
+					<option value="">Choose Crust Size</option>
+					<option value="1">S</option>
+					<option value="2">M</option>
+					<option value="3">L</option>	
+				</select>
+		</li>
+		<li>
+			<label for="frmCrust">Crust Type:</label>
+				<select name="frmCrust" id="frmCrust">
+					<option value="">Choose a Crust</option>
+					<option value="1">Thin</option>
+					<option value="2">Thick</option>
+					<option value="3">Stuffed</option>
+				</select>
+		</li>
+	</ul>
+		</fieldset>
+		<fieldset>
+			<legend>Toppings</legend>
+	<ul>
+		<li>
+			<label for="frmPepperoni">Pepperoni</label>
+			<input type="checkbox" id="frmPepperoni" name="frmPepperoni" value="y">
+		</li>
+		<li>
+			<label for="frmMushrooms">Mushrooms</label>
+			<input type="checkbox" id="frmMushrooms" name="frmMushrooms" value="y">
+		</li>
+		<li>
+			<label for="frmCheese">Extra Cheese?</label>
+			<input type="checkbox" id="frmCheese" name="frmCheese" value="y">
+		</li>
+		</ul>
+		</fieldset>
+		<fieldset>
+			<legend>Pickup or</legend>
+		<ul>
+		<li>
+			<label for="frmDelivery">Delivery?</label>
+			<input type="checkbox" id="frmDelivery" name="frmDelivery" value="y">
+		</li>
+	</ul>
+		</fieldset>
+		<fieldset>
+			<legend>Special</legend>
+	<ul>
+		<li>
+			<label for="frmInstructions">Extra Instructions:</label>
+			<textarea id="frmInstructions" name="frmInstructions">
+			</textarea>
+		</li>
+	</ul>
+		</fieldset>
+	<ul>
+		<li>
+			<input type="submit" name="btnSubmit" value="Place your order!" >  
+		</li>
+	</ul>
+	</form>
+	</article>
+<footer>
+	<p>&copy;<a href="mailto:k.wunderle1@mail.lorainccc.edu">Katharine Wunderle</a></p>
+	<p>Pizza &copy;<a href="https://unsplash.com/">Unsplash.com</a></p>
+	<p>Background &copy;<a href="https://www.freepik.com">Freepik.com</a></p>
+	<p>Portfolio <a href="../portfolio.html">Home</a></p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body	{margin:10px auto;
+		font-family:helvetica, arial, sans-serif;
+		background:#619b8a;}
+header	{width:90%;
+		margin:0px auto;
+		padding:20px;
+		background:#233d4d;
+		border-top:5px solid #fcca46;
+		border-bottom:double #fcca46;
+		border-radius:5px;
+		color:#fcca46;
+		text-align:center;
+		font-family:courier new;
+		font-size:1.5em;
+		letter-spacing:10px;}
+h2		{background:#fe7f2d;
+		padding:10px;
+		font-family:courier new;
+		border: double #233d4d;
+		border-radius:10px;}
+article {width:90%;
+		margin:0px auto;
+		margin-top:10px;
+		border-top:5px solid #fe7f2d;
+		border-bottom:5px solid #fe7f2d;
+		border-radius:5px;
+		background:#a1c181;
+		padding:20px;
+		text-align:center;}
+.phone {display:none;}
+table	{width:70%;
+		min-width:400px;
+		margin:0px auto;
+		background:white;
+		font-size:.9em;}
+caption	{background:#ffc027;
+		padding:5px;
+		text-align:left;
+		font-size:1.2em;
+		font-weight:bold;}
+.side	{font-weight:normal;
+		text-align:left;}
+.top	{padding:4px;
+		background:#c1c1c1;
+		text-align:left;}
+td		{padding:4px;
+		text-align:left;}
+.asia 	{font-weight:bold;
+		text-align:left;}
+ul		{list-style-type:none;
+		margin:0px auto;}
+li		{margin:0px auto;
+		text-align:left;
+		padding-top:20px;
+		padding-bottom:20px;}
+li a	{color: #fcca46;
+		background:#233d4d;
+		text-align: center;
+		padding: 5px;
+		margin: 5px;
+		font-family:times new roman;
+		text-decoration: none;
+		border:2px solid #fcca46;
+		border-radius:5px;}
+li a:hover {background: #fcca46;
+		color:#233d4d;
+		border:2px solid #fcca46;
+		border-radius:0px;}
+footer	{width:90%;
+		margin:0px auto;
+		margin-top:10px;
+		padding:20px;
+		background:#233d4d;
+		border-bottom:5px solid #fcca46;
+		border-top:double #fcca46;
+		border-radius:5px;
+		color:#fcca46;}
+footer a {color: #fcca46;
+		background:#233d4d;
+		text-align: center;
+		padding: 5px;
+		margin: 5px;
+		font-family:times new roman;
+		text-decoration: none;
+		border:2px solid #fcca46;
+		border-radius:5px;}
+footer a:hover {background: #fcca46;
+		color:#233d4d;
+		border:2px solid #fcca46;
+		border-radius:0px;}

@@ -1,0 +1,88 @@
+body
+	{background:#000000;
+	background:url("../images/skullbg.jpg");
+	background-attachment:fixed;
+	font-family:helvetica, arial, sans-serif;}
+header
+	{
+	background:#161A1D;
+	color:#E5383B;
+	border: 10px dashed #fff;
+	border-radius: 100px;
+	margin:0 auto;
+	width:600px;
+	font-family:Garamond;
+	text-align:center;}
+article
+	{width:700px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width:650px;
+	background: #B1A7A6;
+	font-family:Georgia;
+	color:#000;
+	border: 4px dashed #E5383B;
+	border-radius: 100px;
+	padding: 40px;
+	text-align:justify;}
+article a
+	{border:1px solid #E5383B; 
+	padding:3px;
+	border-radius:5px;
+	margin:0 auto;
+	text-align:center;
+	text-decoration:none;
+	color:#E5383B;
+	background:#0B090A;}
+
+h2
+	{background:#E5383B;
+	color:#161A1D;
+	width:250px;
+	margin:0 auto;
+	padding:10px;
+	border: 4px dotted #0B090A;
+	border-radius:20px;
+	text-align:center;
+	font-family:courier new;}
+nav ul
+	{list-style-type: none;
+	width:520px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0B090A;
+	border-radius:10px;}
+img
+	{border:6px solid #161A1D;
+	border-radius:20px;}
+nav {margin:0 auto;
+	text-align:center;
+	padding:15px;}
+nav li
+	{float: left;
+	text-align:center;
+	border-radius:10px;}
+nav li a:hover {
+	background-color: #E5383B;
+	color:#0B090A;}
+nav a
+	{display: block;
+	color: #E5383B;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius:10px;}
+footer
+	{width:650px;
+	margin:0 auto;
+	margin-top:10px;
+	padding: 20px;
+	border: 10px dashed #fff;
+	border-radius:80px;
+	background:#0B090A;
+	color:#E5383B;}
+footer a
+	{text-decoration:none;
+	color:white;}
+footer a:hover{text-decoration:underline;}
